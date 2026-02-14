@@ -1,5 +1,6 @@
 import { Github, Twitter, Mail } from 'lucide-react';
 import { Button } from './ui/button';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 import { motion } from 'motion/react';
 
 export function Hero() {
@@ -141,8 +142,8 @@ export function Hero() {
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
-                <img 
-                  src="https://images.unsplash.com/photo-1731951039706-0e793240bb32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBtYWxlJTIwZGV2ZWxvcGVyJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzcwOTQyMDkzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+                <ImageWithFallback 
+                  src="/profile.jpg"
                   alt="Andrew Gathuto - Full Stack Developer"
                   className="w-full h-full object-cover"
                 />
