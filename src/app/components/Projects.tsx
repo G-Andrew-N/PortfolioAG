@@ -8,6 +8,14 @@ import { useRef } from 'react';
 
 const projects = [
   {
+    title: 'Cosmic Timeline Gallery',
+    description: 'A curated Next.js gallery that renders NASA\'s Astronomy Picture of the Day. Travel back in time to explore photographs from the past, each with full descriptions—featuring a space-themed UI, archive grid, and interactive timeline.',
+    image: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
+    tech: ['Next.js', 'React', 'NASA APOD API', 'Tailwind CSS', 'Motion'],
+    github: 'https://github.com/G-Andrew-N/cosmic-next',
+    live: 'https://cosmic-next-delta.vercel.app'
+  },
+  {
     title: 'ScholarScoop',
     description: 'A comprehensive web platform designed to help students and scholars efficiently discover academic articles, research papers, and datasets across the internet. Features advanced search capabilities and user-friendly navigation to streamline academic research.',
     image: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhY2FkZW1pYyUyMHJlc2VhcmNoJTIwc3R1ZHklMjBsaWJyYXJ5fGVufDF8fHx8MTc3MTA1Nzg1OXww&ixlib=rb-4.1.0&q=80&w=1080',
