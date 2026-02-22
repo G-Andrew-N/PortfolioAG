@@ -8,6 +8,14 @@ import { useRef } from 'react';
 
 const projects = [
   {
+    title: 'HireSense',
+    description: 'An intelligent job search platform that uses AI to match resumes with job postings, predict interview success, and suggest targeted resume improvements. It aggregates listings from multiple sources and provides streamlined application tracking in one place.',
+    image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
+    tech: ['React', 'Django', 'groq AI', 'PostgreSQL', 'Tailwind CSS'],
+    github: 'https://github.com/G-Andrew-N/HireSense',
+    live: 'https://hiresense-fi.vercel.app/'
+  },
+  {
     title: 'Cosmic Timeline Gallery',
     description: 'A curated Next.js gallery that renders NASA\'s Astronomy Picture of the Day. Travel back in time to explore photographs from the past, each with full descriptions—featuring a space-themed UI, archive grid, and interactive timeline.',
     image: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080',
