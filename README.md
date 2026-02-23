@@ -9,6 +9,18 @@
 
   Run `npm run dev` to start the development server.
 
+  ## SEO setup
+
+  To generate correct canonical and social URLs in production, set your public site URL in `.env`:
+
+  `VITE_SITE_URL=https://gathuto.vercel.app`
+
+  The sitemap is generated automatically during `npm run build`.
+
+  You can regenerate it manually anytime with:
+
+  `npm run generate:sitemap`
+
 ## Contact form
 
 The contact section sends messages via [Formspree](https://formspree.io). To enable it:
