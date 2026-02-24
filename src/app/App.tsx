@@ -33,6 +33,7 @@ export default function App() {
 
     upsertMeta('property', 'og:url', currentUrl);
     upsertMeta('name', 'twitter:url', currentUrl);
+    upsertMeta('property', 'og:site_name', 'Andrew Gathuto');
 
     const personSchema = {
       '@context': 'https://schema.org',
@@ -53,7 +54,8 @@ export default function App() {
     const websiteSchema = {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      name: 'Andrew Gathuto Portfolio',
+      name: 'Andrew Gathuto',
+      alternateName: 'Andrew Gathuto Portfolio',
       url: siteUrl,
       inLanguage: 'en'
     };
