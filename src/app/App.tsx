@@ -38,11 +38,15 @@ export default function App() {
       '@context': 'https://schema.org',
       '@type': 'Person',
       name: 'Andrew Gathuto',
+      givenName: 'Andrew',
+      familyName: 'Gathuto',
+      alternateName: ['Gathuto'],
       url: siteUrl,
       jobTitle: 'Software Developer',
       image: `${siteUrl}/profile.jpg`,
       sameAs: [
-        'https://github.com/G-Andrew-N'
+        'https://github.com/G-Andrew-N',
+        'https://x.com/andrew_gathuto'
       ]
     };
 
