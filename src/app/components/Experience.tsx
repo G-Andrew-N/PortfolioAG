@@ -9,12 +9,12 @@ const experiences = [
     company: 'BlitzBuild Inc.',
     type: 'Startup',
     period: 'Jan 2026 - Present',
-    description: 'Founded and leading a tech startup focused on delivering cutting-edge web solutions. Building scalable, high-performance applications for businesses and enterprises using modern tech stacks.',
+    description: 'Leading a startup initiative focused on practical web solutions and collaborative product delivery. This role complements my independent project work showcased in this portfolio.',
     achievements: [
-      'Successfully launched and scaled startup from concept to operational business',
-      'Built enterprise-grade solutions serving multiple clients across different industries',
-      'Established efficient development workflows and best practices for the team',
-      'Implemented robust CI/CD pipelines and cloud infrastructure for scalable deployments'
+      'Shaped product direction and engineering standards across active client work',
+      'Led architecture decisions and implementation planning for scalable web solutions',
+      'Established efficient team workflows and strong development best practices',
+      'Maintained reliable delivery pipelines and cloud deployment processes'
     ],
     color: 'from-blue-500 to-blue-600'
   },
@@ -23,12 +23,12 @@ const experiences = [
     company: 'Independent Contractor',
     type: 'Freelance',
     period: 'Sep 2025 - Jan 2026',
-    description: 'Provided comprehensive web development services to diverse clients across various industries. Delivered custom solutions tailored to unique business requirements, from e-commerce platforms to business management systems.',
+    description: 'Collaborated with clients and teams in freelance engagements as a design and technical consultant. Supported project planning, UX direction, implementation guidance, and quality improvements.',
     achievements: [
-      'Completed 10+ projects for clients ranging from startups to established businesses',
-      'Achieved 100% client satisfaction with on-time delivery and quality code',
-      'Built full-stack applications using Django, Next.js, and modern JavaScript frameworks',
-      'Managed entire project lifecycle including requirements gathering, development, testing, and deployment'
+      'Partnered with product owners to refine requirements and prioritize practical solutions',
+      'Contributed UI/UX direction and design feedback to improve product usability',
+      'Provided architecture and code consultation for Django, Next.js, and modern JavaScript stacks',
+      'Supported teams with debugging, review, and delivery readiness across active projects'
     ],
     color: 'from-purple-500 to-purple-600'
   },
@@ -124,7 +124,7 @@ export function Experience() {
                   {/* Center Timeline Node */}
                   <div className="relative z-10 flex-shrink-0">
                     <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${exp.color} flex items-center justify-center text-white shadow-lg border-4 border-white dark:border-gray-800`}>
-                      <span className="text-xl font-bold">{index + 1}</span>
+                      <Briefcase className="w-7 h-7" />
                     </div>
                   </div>
                   
@@ -137,7 +137,7 @@ export function Experience() {
                   {/* Timeline node */}
                   <div className="relative flex-shrink-0">
                     <div className={`w-12 h-12 rounded-full bg-gradient-to-br ${exp.color} flex items-center justify-center text-white shadow-lg border-4 border-white dark:border-gray-800 z-10 relative`}>
-                      <span className="text-lg font-bold">{index + 1}</span>
+                      <Briefcase className="w-5 h-5" />
                     </div>
                   </div>
                   
