@@ -4,31 +4,18 @@ import { motion, useInView } from 'motion/react';
 import { useRef } from 'react';
 
 const experiences = [
-  {
-    title: 'Founder & Lead Developer',
-    company: 'BlitzBuild Inc.',
-    type: 'Startup',
-    period: 'Jan 2026 - Present',
-    description: 'Leading a startup initiative focused on practical web solutions and collaborative product delivery. This role complements my independent project work showcased in this portfolio.',
-    achievements: [
-      'Shaped product direction and engineering standards across active client work',
-      'Led architecture decisions and implementation planning for scalable web solutions',
-      'Established efficient team workflows and strong development best practices',
-      'Maintained reliable delivery pipelines and cloud deployment processes'
-    ],
-    color: 'from-blue-500 to-blue-600'
-  },
+
   {
     title: 'Freelance Web Developer',
     company: 'Independent Contractor',
     type: 'Freelance',
-    period: 'Sep 2025 - Jan 2026',
+    period: 'Sep 2025 - present',
     description: 'Collaborated with clients and teams in freelance engagements as a design and technical consultant. Supported project planning, UX direction, implementation guidance, and quality improvements.',
     achievements: [
-      'Partnered with product owners to refine requirements and prioritize practical solutions',
-      'Contributed UI/UX direction and design feedback to improve product usability',
-      'Provided architecture and code consultation for Django, Next.js, and modern JavaScript stacks',
-      'Supported teams with debugging, review, and delivery readiness across active projects'
+      'Partners with product owners to refine requirements and prioritize practical solutions',
+      'Contributes to UI/UX direction and design feedback to improve product usability',
+      'Provides architecture and code consultation for Django, Next.js, and modern JavaScript stacks',
+      'Supports teams with debugging, review, and delivery readiness across active projects'
     ],
     color: 'from-purple-500 to-purple-600'
   },
