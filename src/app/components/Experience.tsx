@@ -10,12 +10,12 @@ const experiences = [
     company: 'Independent Contractor',
     type: 'Freelance',
     period: 'Sep 2025 - present',
-    description: 'Collaborated with clients and teams in freelance engagements as a design and technical consultant. Supported project planning, UX direction, implementation guidance, and quality improvements.',
+    description: 'Collaborates with clients and teams in freelance engagements as a design and technical consultant. I also support project planning, UX direction, implementation guidance, and quality improvements.',
     achievements: [
-      'Partners with product owners to refine requirements and prioritize practical solutions',
-      'Contributes to UI/UX direction and design feedback to improve product usability',
-      'Provides architecture and code consultation for Django, Next.js, and modern JavaScript stacks',
-      'Supports teams with debugging, review, and delivery readiness across active projects'
+      'I have partnered with product owners to refine requirements and prioritize practical solutions',
+      'Contributed to UI/UX direction and design feedback to improve product usability',
+      'I have provided architecture and code consultation for Django, Next.js, and modern JavaScript stacks',
+      'Supported teams with debugging, review, and delivery readiness across active projects'
     ],
     color: 'from-purple-500 to-purple-600'
   },
